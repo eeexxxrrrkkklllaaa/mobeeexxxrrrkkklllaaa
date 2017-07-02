@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ProSport</string>
+
+    <string name="slide_1_title">Hello,Food?</string>
+    <string name="slide_1_desc">The dankest meme about Shaqs adventures in mcDulands</string>
+
+    <string name="slide_2_title">Food BROKE</string>
+    <string name="slide_2_desc">This is culmination of the meme</string>
+
+    <string name="slide_3_title">Understandable, have a great day!</string>
+    <string name="slide_3_desc">The meme is over(</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
