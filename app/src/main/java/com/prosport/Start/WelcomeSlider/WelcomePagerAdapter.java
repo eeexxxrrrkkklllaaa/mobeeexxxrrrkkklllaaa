@@ -1,4 +1,4 @@
-package com.prosport.WelcomeSlider;
+package com.prosport.Start.WelcomeSlider;
 
 import android.app.Fragment;
 import android.app.FragmentManager;

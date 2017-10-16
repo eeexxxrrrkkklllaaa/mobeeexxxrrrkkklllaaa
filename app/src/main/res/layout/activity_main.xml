@@ -7,7 +7,7 @@
     android:fitsSystemWindows="true"
     android:id="@+id/activity_main"
     android:orientation="vertical"
-    tools:context="com.prosport.MainActivity">
+    tools:context="com.prosport.Main.MainActivity">
 
 <android.support.design.widget.AppBarLayout
     android:layout_width="match_parent"
@@ -26,7 +26,7 @@
             android:layout_width="122dp"
             android:layout_height="50dp"
             android:layout_gravity="center_horizontal"
-            android:src="@drawable/welcome_4" />
+            android:src="@drawable/logo" />
     </android.support.v7.widget.Toolbar>
 
 </android.support.design.widget.AppBarLayout>

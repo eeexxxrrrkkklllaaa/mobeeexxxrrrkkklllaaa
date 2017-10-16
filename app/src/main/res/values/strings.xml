@@ -3,7 +3,11 @@
 
     <string name="nav_open">OpenNavigation</string>
     <string name="nav_close">CloseNavigation</string>
-
+    <string name="begin">begin</string>
+    <string name="next">next</string>
+    <string name="mTitle">mTitle</string>
+    <string name="mDescription">mDescription</string>
+    <string name="mBackground">mBackground</string>
 
 
 </resources>

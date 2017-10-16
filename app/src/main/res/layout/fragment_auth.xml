@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center_vertical"
+    android:padding="24dp"
+    android:id="@+id/fragment_auth">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="166dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center_horizontal"/>
+
+    <com.prosport.Start.Auth.CustomViews.CustomTextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal"
+        android:text="Регистрация"
+        app:font="2"/>
+
+    <com.prosport.Start.Auth.CustomViews.CustomEditView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:textColor="@android:color/white"
+        app:isReveal="true"
+        app:icon="@drawable/ic_email_inactive"
+        app:activeIcon="@drawable/ic_email_active"
+        app:hint="Введите почту"
+        app:hintColor="@color/hintColor"
+        app:editBackgroundColor="@color/inActiveEditBackground"
+        app:iconBackgroundColor="@color/inActiveIconBackground"
+        app:backgroundColorFill="@color/activeEditBackground"
+        app:iconColorFill="@color/activeIconBackground"/>
+
+    <com.prosport.Start.Auth.CustomViews.CustomEditView
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:textColor="@android:color/white"
+        app:isReveal="true"
+        app:icon="@drawable/ic_password_inactive"
+        app:activeIcon="@drawable/ic_password_active"
+        app:hint="Введите пароль"
+        app:hintColor="@color/hintColor"
+        app:editBackgroundColor="@color/inActiveEditBackground"
+        app:iconBackgroundColor="@color/inActiveIconBackground"
+        app:backgroundColorFill="@color/activeEditBackground"
+        app:iconColorFill="@color/activeIconBackground"/>
+
+    <com.prosport.Start.Auth.CustomViews.CustomEditView
+        android:id="@+id/password_repeat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:textColor="@android:color/white"
+        app:isReveal="true"
+        app:icon="@drawable/ic_password_inactive"
+        app:activeIcon="@drawable/ic_password_active"
+        app:hint="Повторите пароль"
+        app:hintColor="@color/hintColor"
+        app:editBackgroundColor="@color/inActiveEditBackground"
+        app:iconBackgroundColor="@color/inActiveIconBackground"
+        app:backgroundColorFill="@color/activeEditBackground"
+        app:iconColorFill="@color/activeIconBackground"/>
+
+    <com.prosport.Start.Auth.CustomViews.CustomImageView
+        android:id="@+id/submit"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        app:colorActive="@color/colorPrimary"
+        app:colorInactive="@color/colorInactive"
+        app:textContent="Submit"/>
+
+
+
+
+
+
+
+</LinearLayout>

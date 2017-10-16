@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomEditView">
+        <attr name="hint" format="string"/>
+        <attr name="text" format="string" />
+        <attr name="hintColor" format="reference" />
+        <attr name="icon" format="reference" />
+        <attr name="activeIcon" format="reference" />
+        <attr name="textColor" format="reference" />
+        <attr name="textSize" format="integer" />
+        <attr name="iconColorFill" format="reference" />
+        <attr name="backgroundColorFill" format="reference" />
+        <attr name="iconBackgroundColor" format="reference" />
+        <attr name="editBackgroundColor" format="reference" />
+        <attr name="isReveal" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomTextView">
+        <attr name="font" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomImageView">
+        <attr name="colorActive" format="color" />
+        <attr name="colorInactive" format="color" />
+        <attr name="textContent" format="string" />
+    </declare-styleable>
+
+</resources>
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="12dp"
+                android:background="@color/inActiveIconBackground"/>
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:paddingLeft="16dp"
+                android:paddingStart="16dp"
+                android:background="@color/inActiveEditBackground"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearReal"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageViewReal"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:visibility="invisible"
+                android:padding="12dp"
+                android:background="@color/inActiveIconBackground"/>
+            <EditText
+                android:id="@+id/editTextReal"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:visibility="invisible"
+                android:paddingLeft="16dp"
+                android:paddingStart="16dp"
+                android:background="@color/inActiveEditBackground"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+</merge>

@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#00796B</color>
+    <color name="colorPrimaryDark">#223f55</color>
+    <color name="colorAccent">#03a9f4</color>
+    <color name="shadowLine">#9900796B</color>
+
+    <color name="hintColor">#d4d4d4</color>
+    <color name="inActiveIconBackground">#395663</color>
+    <color name="inActiveEditBackground">#547e91</color>
+    <color name="activeIconBackground">#028ac9</color>
+    <color name="activeEditBackground">#1ea9ea</color>
+
+    <color name="colorInactive">#787878</color>
+
+
 
 
 
